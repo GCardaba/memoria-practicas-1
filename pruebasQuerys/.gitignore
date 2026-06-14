@@ -1,0 +1,27 @@
+# ===== Sistema operativo =====
+.DS_Store
+._*
+Thumbs.db
+
+# ===== Python =====
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# ===== Datos generados / salidas grandes =====
+*.tbl
+*.parquet
+parquet_data/
+
+# ===== Temporales y bloqueos de Office =====
+~$*.docx
+~$*.xlsx
+~$*.pptx
+*.tmp
+
+# ===== Backups comprimidos =====
+*.zip
+
+# Nota: los .docx/.pdf/.pptx de la memoria y la presentación SÍ se versionan.

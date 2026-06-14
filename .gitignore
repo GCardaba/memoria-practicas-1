@@ -1,0 +1,55 @@
+# ===== Sistema operativo =====
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Thumbs.db
+desktop.ini
+
+# ===== Editores / IDE =====
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# ===== Claude / Cowork =====
+.claude/
+
+# ===== Python =====
+__pycache__/
+*.py[cod]
+*$py.class
+.ipynb_checkpoints/
+.venv/
+venv/
+env/
+.env
+*.egg-info/
+.pytest_cache/
+
+# ===== Scala / Java (ConvertToParquet.scala) =====
+target/
+project/target/
+*.class
+*.jar
+.metals/
+.bloop/
+
+# ===== Datos generados TPC-H (enormes, NO versionar) =====
+*.tbl
+*.tbl.*
+parquet_data/
+*.parquet
+
+# ===== Temporales y bloqueos de Microsoft Office =====
+~$*.docx
+~$*.xlsx
+~$*.pptx
+*.tmp
+
+# ===== Comprimidos / backups / logs =====
+*.zip
+*.bak
+*.log

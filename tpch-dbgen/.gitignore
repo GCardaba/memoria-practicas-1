@@ -1,0 +1,9 @@
+*.o
+dbgen
+qgen
+*.tbl
+
+# Datos generados de gran tamaño (añadido)
+parquet_data/
+*.parquet
+.DS_Store
